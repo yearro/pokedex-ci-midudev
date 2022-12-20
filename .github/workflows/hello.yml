@@ -10,3 +10,6 @@ jobs:
       - name: Echo the message
         run: |
           echo "Hola mundo"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
